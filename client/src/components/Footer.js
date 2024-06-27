@@ -8,35 +8,24 @@ export default function Footer() {
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap md:text-left text-center order-first">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">See All Categories</h2>
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Visit Us</h2>
               <nav class="list-none mb-10">
-               
                 <li>
-                  <a href='https://www.youtube.com/@techywebdev8393' class="text-gray-600 hover:text-gray-800">YT Channel</a>
-                </li>
-                <li>
-                  <a href='https://www.youtube.com/@techywebdev8393' class="text-gray-600 hover:text-gray-800">Twitter</a>
-                </li>
-                <li>
-                  <a href='https://www.youtube.com/@techywebdev8393' class="text-gray-600 hover:text-gray-800">Featured!</a>
+                  <a href='https://www.instagram.com/reaso.nablejewellery/' class="text-gray-600 hover:text-gray-800">INSTAGRAM PAGE</a>
                 </li>
               </nav>
             </div>
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Policy</h2>
-              <nav class="list-none mb-10">
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Return Policy</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Terms and Conditions</a>
-                </li>
+            <div className="footer">
+        <h4 className='text-center'>All Right Reserved &copy; reaso.nablejewellery </h4>
+        <p className="text-center mt-3">
+        <Link to="/contact">Contact</Link>|
+          <Link to="/Policy">Privacy Policy</Link>|<Link to="/shipping">Shipping and Delivery</Link>|
+          <Link to="/refund">Refund and Exchange</Link>
+          
 
-              </nav>
+        </p>
             </div>
+            
 
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CONTACT US :</h2>
@@ -55,7 +44,7 @@ export default function Footer() {
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <img className="h-8 md:h-20  md:mt-1 md:mb-1" src={require('./Images/twd_ecommerce-removebg-preview (3).png')} alt="" />
             </a>
-            <p class="text-sm text-white sm:ml-6 sm:mt-0 mt-4">© 2024 TWD Ecommerce
+            <p class="text-sm text-white sm:ml-6 sm:mt-0 mt-4">© reaso.nablejewellery
             </p>
 
           </div>

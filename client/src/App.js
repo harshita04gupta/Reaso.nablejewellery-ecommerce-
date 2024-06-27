@@ -23,6 +23,10 @@ import Address from "./components/Address.js";
 import Payment from "./components/Payment.js";
 import PaymentWrapper from "./components/PaymentWrapper.js";
 import ResetPassword from "./components/ResetPassword.js";
+import Policy from "./components/Policy.js";
+import Refund from "./components/Refund.js";
+import Shipping from "./components/Shipping.js";
+
 
 
 function App() {
@@ -57,6 +61,10 @@ function App() {
           <Route path="/searchpage" element={<SearchPage />} />
           <Route path="/singleitempage" element={<SingleItemPage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/Policy" element={<Policy />} />
+          
+          <Route path="/Refund" element={<Refund />} />
+          <Route path="/Shipping" element={<Shipping />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
           <Route path="/resetpassword" element={<ResetPassword />} />
           <Route path="/address" element={<Address />} />
